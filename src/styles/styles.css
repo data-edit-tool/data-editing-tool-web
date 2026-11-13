@@ -1,0 +1,18 @@
+#waveform ::part(scroll)::-webkit-scrollbar {
+  background-color: #373d48;
+  width: 12px;
+  height: 12px;
+}
+
+#waveform ::part(scroll)::-webkit-scrollbar-track {
+  background-color: #373d48;
+}
+
+#waveform ::part(scroll)::-webkit-scrollbar-thumb {
+  background-color: #aaaeb2;
+  border-radius: 16px;
+}
+
+#waveform ::part(scroll)::-webkit-scrollbar-button {
+  display: none;
+}
